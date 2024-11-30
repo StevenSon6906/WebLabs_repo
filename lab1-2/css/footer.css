@@ -1,0 +1,64 @@
+.footer {
+    background-color: #F8F8F8;
+    display: grid;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer__container {
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
+.footer__branding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__branding__label {
+    font-family: 'Mulish';
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
+
+.footer__hr {
+    background: #C4C4C4;
+    margin: 26px 0 30px;
+    height: 1px;
+    border: 0;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.footer__social a {
+    display: inline-block;
+    transition: transform 0.3s ease; /* Додаємо плавну анімацію */
+}
+
+.footer__social a:hover {
+    transform: translateY(-10px); /* Піднімаємо іконку на 10px */
+}
+
+@media screen and (max-width: 768px) {
+    .footer__branding {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer__branding__label {
+        text-align: center;
+    }
+
+}

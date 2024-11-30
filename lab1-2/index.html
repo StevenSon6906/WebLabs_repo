@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab1</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    
+    <div class="header__container">
+    <header class="header">
+        <div class="header__menu" onclick="toggleMenu()">
+            <img src="images/menu-icon.svg" alt="Menu icon">
+        </div>
+        <img class="logo" src="images/logo.svg" alt="logo">
+        <div class="block__right">
+            <nav id="nav-links" class="header__nav">
+                <ul>
+                    <li class="header__nav-item">
+                        <a class="heaader__nav-link" href="">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="heaader__nav-link" href="">Destinations</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="heaader__nav-link" href="">About</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="heaader__nav-link" href="">Partner</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_buttons">
+                <button class="header__button login">Login</button>
+                <button class="header__button ">Register</button>
+            </div>
+        </div>
+    </header>
+    </div>
+
+    <section class="hero">
+        <div class="container hero__container">
+            <div class="hero__inner">
+                <h1 class="hero__title">Explore and Travel</h1>
+                <p class="hero__paragraph">Holiday finder</p>
+                <img src="images/underline.svg" alt="underline" class="hero__underline">
+                <div class="custom-select">
+                    <select>
+                        <option value="0">Location</option>
+                    </select>
+                    <select>
+                        <option value="0">Activity</option>
+                    </select>
+                    <select>
+                        <option value="0">Grade</option>
+                    </select>
+                    <select>
+                        <option value="0">Date</option>
+                    </select>
+                </div>
+                <button class="defult__button explore">Explore</button>
+            </div>
+            <div class="hero__illustration">
+                <img src="images/hero-image.svg" alt="Hero image">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="info">
+        <div class="container">
+            <img src="images/thousand-02.svg" alt="info image" class="info__image">
+            <div class="info__inner">
+                <h1 class="title">A new way to explore the world</h1>
+                <p class="paragraph">For decades travellers have reached for Lonely Planet books when looking to plan
+                    and execute their perfect
+                    trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+                <button class="defult__button more">Learn more</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="container gallery__container">
+        <div class="gallery__head">
+            <h1>Featured destinations</h1>
+            <a href="">View all ></a>
+        </div>
+        </div>
+        <div class="gallery__pics">
+            <img src="./images/raja_ampata.svg" alt="" class="">
+            <img src="./images/fanjingshan.svg" alt="" class="">
+            <img src="./images/vevey.svg" alt="" class="">
+            <img src="./images/skadar.svg" alt="" class="">
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__branding">
+                <img src="./images/logo.svg">
+                <div class="footer__branding__label">©2020 Thousand Sunny. All rights reserved</div>
+            </div>
+            <hr class="footer__hr">
+            <div class="footer__social">
+                <a href=""><img src="./images/twitter.svg" alt="t"></a>
+                <a href=""><img src="./images/facebook.svg" alt="f"></a>
+                <a href=""><img src="./images/insta.svg" alt="i"></a>
+                <a href=""><img src="./images/linked.svg" alt="l"></a>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=1VLx-0kTwQMgRth0"><img src="./images/youtube.svg" alt="y"></a>
+            </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
